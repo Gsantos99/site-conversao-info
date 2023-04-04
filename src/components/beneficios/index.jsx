@@ -3,11 +3,15 @@ import { Container, Heading, Box, SimpleGrid } from "@chakra-ui/layout";
 import { StarIcon } from '@chakra-ui/icons'
 
 export default function Beneficios(){
-  return(<>
+  return(
+  
+  <Box as='section'  margin='0 auto' textAlign='center' padding='15px'>
       
       <Heading mt='10' mb='10'> O que você vai aprender? </Heading>
 
-<SimpleGrid  spacing='40px'  columns={3} minChildWidth='250px'>
+<SimpleGrid  spacing='40px'  columns={3} minChildWidth='250px'   >
+
+  
   
   <Box bg='rgb(58,161,105)'  height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='green.600' margin='1'/> Conteúdo 1 </Heading>
@@ -16,7 +20,7 @@ export default function Beneficios(){
 
 <Box bg='rgb(58,161,105)' height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='green.600' margin='1'/> Conteúdo 2</Heading>
-  <p>Através de um cardápio sugestivo e receitas, você aprenderá os primeiros passos para fazer melhores escolhas alimentares e começar o seu processo de emagrecimento.</p>
+  <p>Através de um cardápio sugestivo com receitas regionais (Norte e Nordeste), você aprenderá os primeiros passos para fazer melhores escolhas alimentares e começar o seu processo de emagrecimento.</p>
 </Box>
 
 <Box bg='rgb(58,161,105)' height='auto' padding='20px' borderRadius='10px'>
@@ -26,5 +30,5 @@ export default function Beneficios(){
 
 </SimpleGrid>
 
-  </>)
+  </Box>)
 }
