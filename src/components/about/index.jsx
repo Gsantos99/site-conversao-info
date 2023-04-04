@@ -24,7 +24,7 @@ flexDirection='column'  >
   alignSelf='center'
   borderRadius='18px'
   boxSize='300px'
-  src='../src/assets/dany-photo.jpg'
+  src='https://daniely-santos-oficial.vercel.app/assets/dany-about.jpeg'
   alt='Daniely Santos'
   mb='20px'
 />
