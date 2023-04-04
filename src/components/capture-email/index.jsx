@@ -21,7 +21,7 @@ export default function CaptureEmail(){
 
    const handleSubmit = (e) => {
     e.preventDefault();
-    const url = 'https://chat.whatsapp.com/HasZa4PzPmSAJKOljb7jOL?email=$email=${encodeURIComponent(email)}'
+    const url = 'https://chat.whatsapp.com/HasZa4PzPmSAJKOljb7jOL?'
     window.open(url, '_blank');
 
    }
@@ -36,7 +36,9 @@ export default function CaptureEmail(){
     <Text>
     Se você está frustrada e já cansou de tantas dietas que não te trouxeram nenhum resultado, venha participar de um GRUPO GRATUITO no WhatsApp e aprender o passo a passo do emagrecimento eficiente, sem sofrimento e sem deixar de comer o que gosta.
     </Text>
-   <form onSubmit={handleSubmit} target="_blank" action="https://formsubmit.co/giulyanofelipesantos@gmail.com" method="POST" >
+   <form  target="_blank" action="https://formsubmit.co/giulyanofelipesantos@gmail.com" method="POST" >
+
+   <input type="hidden" name="_next" value="https://chat.whatsapp.com/HasZa4PzPmSAJKOljb7jOL?"></input>
 
      <Input placeholder='Digite seu email aqui' size='md' display='block' variant='filled'  focusBorderColor='green.400' marginTop='10' type='email'  name="email" onChange={handleEmailChange} />
 
