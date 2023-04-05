@@ -9,9 +9,6 @@ export default function About({title}){
     
      <Heading as='h1' mt='10'>{title}</Heading>
 
-
-
-
 <Box as='div' display='flex' mt='10px' padding='15px'  margin='0 auto'
 
 flexDirection='column'  >
@@ -24,7 +21,7 @@ flexDirection='column'  >
   alignSelf='center'
   borderRadius='100%'
   boxSize='300px'
-  src='src/assets/daniely-photo.jpeg'
+  src='../src/assets/daniely-photo.jpeg'
   alt='Daniely Santos'
   mb='20px'
 />
