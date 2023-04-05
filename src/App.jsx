@@ -1,5 +1,5 @@
 import './App.css'
-import CaptureEmail from './components/capture-email';
+import Header from './components/header';
 import Beneficios from './components/beneficios';
 import About from './components/about';
 
@@ -8,7 +8,7 @@ import About from './components/about';
 function App() {
   return (<>
 
-<CaptureEmail/>
+<Header/>
 <Beneficios/>
 <About title='Quem sou eu?'></About>
 
