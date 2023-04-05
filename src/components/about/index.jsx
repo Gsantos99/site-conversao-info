@@ -1,6 +1,8 @@
 import { Heading, Box, Text } from "@chakra-ui/layout";
 import { Image } from '@chakra-ui/react'
+import fotoAbout from '../../assets/daniely-photo.jpeg'
 import React from "react";
+
 
 
 export default function About({title}){
@@ -21,7 +23,7 @@ flexDirection='column'  >
   alignSelf='center'
   borderRadius='100%'
   boxSize='300px'
-  src='../src/assets/daniely-photo.jpeg'
+  src={fotoAbout}
   alt='Daniely Santos'
   mb='20px'
 />
