@@ -10,9 +10,6 @@ export default function Beneficios(){
       <Heading mt='10' mb='10'> O que você vai aprender? </Heading>
 
 <SimpleGrid  spacing='40px'  columns={3} minChildWidth='250px'   >
-
-  
-  
   <Box bg='rgb(58,161,105)'  height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='gold' margin='1'/> Conteúdo 1 </Heading>
   <p>Você receberá desafios diários, que te ajudarão a se manter focada e motivada a realizar mudanças no seu dia a dia.</p>
