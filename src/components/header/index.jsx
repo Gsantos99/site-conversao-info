@@ -34,7 +34,7 @@ export default function Header(){
  <Container mt='10' maxW='100wv'  display='flex' flexDirection='row' gap='10' justifyContent='center'>
 
 
-<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> DO DIA 19/06 AO DIA 25/06 DE ABRIL</Box>
+<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> DO DIA 19/06 AO DIA 25/06 DE JUNHO</Box>
 <Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> 100% ONLINE </Box>
 <Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> 100% GRATUITO</Box>
 
