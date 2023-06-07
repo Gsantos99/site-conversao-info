@@ -11,7 +11,7 @@ export default function Header(){
 
 
    const handleClick = () => {
-    const url = 'https://chat.whatsapp.com/JATPb5jiehg8d13hM701W5'
+    const url = 'https://chat.whatsapp.com/INxhtr5CuYl9hhPIifCfBA'
     window.open(url, '_blank');
 
    }
@@ -22,7 +22,7 @@ export default function Header(){
    
     <Box as='div' className="capture-email" maxW='50vw' minWidth='350px' margin='0 auto' padding='10px'>
       <Heading as='h2' color='#3aa169'> Semana grátis com Daniely Santos </Heading>
-      <Heading as='h5' fontSize='32px' mb='10px'>Procura-se mulheres do Norte e Nordeste que desejam muito emagrecer!</Heading>
+      <Heading as='h5' fontSize='35px' mb='10px'>Procura-se mulheres que desejam muito emagrecer!</Heading>
     <Text>
     Se você está frustrada e já cansou de tantas dietas que não te trouxeram nenhum resultado, venha participar de um GRUPO GRATUITO no WhatsApp e aprender o passo a passo do emagrecimento eficiente, sem sofrimento e sem deixar de comer o que gosta.
     </Text>
@@ -34,9 +34,9 @@ export default function Header(){
  <Container mt='10' maxW='100wv'  display='flex' flexDirection='row' gap='10' justifyContent='center'>
 
 
-<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/>DO DIA 17 AO DIA 23 DE ABRIL</Box>
+<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> DO DIA 19/06 AO DIA 25/06 DE ABRIL</Box>
 <Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> 100% ONLINE </Box>
-<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/>100% GRATUITO</Box>
+<Box display='flex' flexDirection='column' alignItems='center'><CalendarIcon w={8} h={8} color='green.600' margin='1'/> 100% GRATUITO</Box>
 
 </Container>
 

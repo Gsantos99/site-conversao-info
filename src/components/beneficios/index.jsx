@@ -12,17 +12,17 @@ export default function Beneficios(){
 <SimpleGrid  spacing='40px'  columns={3} minChildWidth='250px'   >
   <Box bg='rgb(58,161,105)'  height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='gold' margin='1'/> Conteúdo 1 </Heading>
-  <p>Você receberá desafios diários, que te ajudarão a se manter focada e motivada a realizar mudanças no seu dia a dia.</p>
+  <b>Você receberá desafios diários, que te ajudarão a se manter focada e motivada a realizar mudanças no seu dia a dia.</b>
 </Box>
 
 <Box bg='rgb(58,161,105)' height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='gold' margin='1'/> Conteúdo 2</Heading>
-  <p>Através de um cardápio sugestivo com receitas regionais (Norte e Nordeste), você aprenderá os primeiros passos para fazer melhores escolhas alimentares e começar o seu processo de emagrecimento.</p>
+  <b>Através de um cardápio sugestivo com receitas deliciosas, você aprenderá os primeiros passos para fazer melhores escolhas alimentares e começar o seu processo de emagrecimento.</b>
 </Box>
 
 <Box bg='rgb(58,161,105)' height='auto' padding='20px' borderRadius='10px'>
     <Heading as='h2'> <StarIcon w={8} h={8} color='gold' margin='1'/> Conteúdo 3</Heading>
-  <p>Saiba como lidar com a ansiedade de forma equilibrada, aprenda a identificar gatilhos que te levam a compulsão alimentar e como lidar com eles.</p>
+  <b>Saiba como lidar com a ansiedade de forma equilibrada, aprenda a identificar gatilhos que te levam a compulsão alimentar e como lidar com eles.</b>
 </Box>
 
 </SimpleGrid>
