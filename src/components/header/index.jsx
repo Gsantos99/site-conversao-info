@@ -11,7 +11,7 @@ export default function Header(){
 
 
    const handleClick = () => {
-    const url = 'https://chat.whatsapp.com/E3ZM4dRSnQTE45MIo43nmu'
+    const url = 'https://chat.whatsapp.com/Kzw6gJQBTY96wEfk36cvAd'
     window.open(url, '_blank');
 
    }
