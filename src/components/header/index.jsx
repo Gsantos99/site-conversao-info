@@ -6,7 +6,7 @@ import { CalendarIcon } from "@chakra-ui/icons"
 
 export default function Header() {
   const handleClick = () => {
-    const url = "https://chat.whatsapp.com/LHOIdv4YqgLHlVn2gOf9kt"
+    const url = "https://chat.whatsapp.com/LOPXA5nJ6wnIGVbrwYIdDY"
     window.open(url, "_blank")
   }
 
